@@ -1,7 +1,7 @@
-import ProductTable from "@/componets/product-table"
+import ProductCard from "@/componets/product-card"
 
 export default function Index() {
     return(
-        <ProductTable></ProductTable>
+        <ProductCard></ProductCard>
     )
 };

@@ -1,7 +1,7 @@
 import "@/assets/styles.css";
 import Data from "@/utils/products.json";
 
-export default function ProductTable() {
+export default function ProductCard() {
     return(
         <div className="main-container">
             <div className="products-container">
