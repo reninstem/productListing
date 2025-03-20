@@ -1,0 +1,27 @@
+{
+    "products": [
+      {
+        "image": "path-to-image-1.jpg",
+        "brand": "GEEK",
+        "rating": 3,
+        "name": "Faxon Canvas Low-Top Sneaker",
+        "price": "$450.00"
+      },
+      {
+        "image": "path-to-image-2.jpg",
+        "brand": "GEEK",
+        "tags": ["SALE! 13%", "NEW"],
+        "rating": 3,
+        "name": "Faxon Canvas Low-Top Sneaker",
+        "price": "$450.00"
+      },
+      {
+        "image": "path-to-image-3.jpg",
+        "brand": "GEEK",
+        "tags": ["NEW"],
+        "rating": 3,
+        "name": "Faxon Canvas Low-Top Sneaker",
+        "price": "$450.00"
+      }
+    ]
+  }
