@@ -1,0 +1,12 @@
+services:
+  product_listing:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - ".:/opt/product_listing"
+      - "/opt/product_listing/node_modules"
+    environment:
+      - NEXT_WEBPACK_USEPOLLING=true
+      - CHOKIDAR_USEPOLLING=true
+      - WATCHPACK_POLLING=true
